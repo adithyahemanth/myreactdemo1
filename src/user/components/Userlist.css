@@ -1,0 +1,41 @@
+.users-list {
+
+    list-style: none;
+  
+    margin: 0 auto;
+  
+    padding: 0;
+  
+    width: 90%;
+
+    color: chartreuse;
+  
+    max-width: 50rem;
+   
+   display: flex;
+  
+    justify-content: center;
+  
+    flex-wrap: wrap;
+  
+  }
+
+  .users-list a{
+text-decoration: none;
+  }
+ 
+  .user-style{
+ text-decoration: none;
+    color:chartreuse;
+  }
+  .user-heading h1 :hover{
+background-color: darkcyan;
+  }
+  
+  .user-style :hover{
+    background-color: cyan;
+  }
+
+  .user-style :active{
+    color:crimson;
+  }
